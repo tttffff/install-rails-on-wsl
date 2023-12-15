@@ -15,7 +15,7 @@ If you are not interested in this, and just want to get going, please skip this 
 ## Install WSL
 * Open PowerShell as Administrator (find in the menu, right-click, select Run as Administrator)
 * Type `wsl --install` and press enter, it will do it all and install Ubuntu. See [Microsoft's documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for configuration options, or if anything doesn't work here
-* After the installation and a reboot, open Ubuntu from the Start menu and follow the prompts to create a user account. This can be the same user/password as your Windows account, or something new. The password will be used for `sudo` commands, and it will **not** echo back to the screen as you type it. Don't worry that the password isn't going in, just type it out and press enter.
+* After the installation and a reboot, open the Ubuntu App from the Start menu and it will install. If you get an error, open Windows Updates and install any pending updates, then try again. Follow the prompts to create a user account. This can be the same user/password as your Windows account, or something new. The password will be used for `sudo` commands, and it will **not** echo back to the screen as you type it. Don't worry that the password isn't going in, just type it out and press enter.
 * Make sure that you're up to date: `sudo apt update && sudo apt upgrade -y`
 
 ## Set up Git

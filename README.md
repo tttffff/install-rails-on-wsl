@@ -15,7 +15,7 @@ If you are not interested in this, and just want to get going, please skip this 
 ## Install WSL
 * Open PowerShell as Administrator (find in the menu, right-click, select Run as Administrator)
 * Type `wsl --install` and press enter, it will do it all and install Ubuntu. See [Microsoft's documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for configuration options, or if anything doesn't work here
-* After the installation and reboot, open Ubuntu from the Start menu and follow the prompts to create a user account. This can be the same user/password as your Windows account, or something new. The password will be used for `sudo` commands, and it will **not** echo back to the screen as you type it. Don't worry that the password isn't going in, just type it out and press enter.
+* After the installation and a reboot, open Ubuntu from the Start menu and follow the prompts to create a user account. This can be the same user/password as your Windows account, or something new. The password will be used for `sudo` commands, and it will **not** echo back to the screen as you type it. Don't worry that the password isn't going in, just type it out and press enter.
 * Make sure that you're up to date: `sudo apt update && sudo apt upgrade -y`
 
 ## Set up Git
@@ -55,7 +55,7 @@ source ~/.bashrc
 ```
 This installs all the dependencies needed, installs rbenv, and adds the rbenv path to your bashrc file so that it's available every time you open a new terminal.
 
-To install the latest version of Ruby, run `rbenv install -l`, alternativly you can install a specific version with `rbenv install X.Y.Z`. Once you've installed a version, you can set it as the global default with `rbenv global X.Y.Z`. To see what versions are available, run `rbenv versions`.
+To install the latest version of Ruby, run `rbenv install -l`, alternatively you can install a specific version with `rbenv install X.Y.Z`. Once you've installed a version, you can set it as the global default with `rbenv global X.Y.Z`. To see what versions are available, run `rbenv versions`.
 
 Run `ruby -v` to see that it's worked, and what version you're using.
 

@@ -10,12 +10,12 @@
   - [Integrate with Visual Studio Code](#integrate-with-visual-studio-code)
 
 ## Decisions made
-If you are not interested, and just want to get going, please skip this section.
+If you just want to get going, please skip this section.
 
-There are other tutorials for installing Rails on Windows, including some for WSL. I did not like some of the decisions made in those tutorials.
-Personally, I am normally on Mac or Linux, but after helping juniors set up their Windows machines after other guides failed them, I decided to write this.
+There are other tutorials for installing Rails on Windows. A lot of them are good, but they all made at least one decision that I didn't think was for the best. I've assisted many juniors setting up Rails on Windows after they were failed by some tutorial. Still, please feel free to raise an issue or PR if you think something is wrong or could be improved.
 
 * Running Rails from WSL is the best option for me. Running it directly from Windows is possible, but Rails development is geared towards Mac/Linux so it feels better to do it this way, and it is easier to set up as well.
+* Connect with Github because that's almost always needed. It would be similar to connect with Gitlab or Bitbucket, but I'm not going to cover that here.
 * Creating a new key for Github in WSL. It is apparently possible to use the same key as Windows with [Git credential manager](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git#git-credential-manager-setup). I haven't tried it, but I'm guessing it's more hassle than it's worth.
 * Using Rbenv over RVM or ASDF. Just because I've always used it and it's worked well for me. I'm sure the others are great too.
 * Integrating with VS Code. Because that's what we are all using, right? If you are using VIM or something else, cool, but I'm not going to cover it here.

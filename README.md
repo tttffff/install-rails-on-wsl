@@ -12,6 +12,11 @@
 ## Decisions made
 If you are not interested in this, and just want to get going, please skip this section.
 
+* Running Rails from WSL is the best option for me. Running it directly from Windows is possible, but Rails development is geared towards Mac/Linux so it feels better to do it this way, and it is easier to set up as well.
+* Creating a new key for Github in WSL. It is apparently possible to use the same key as Windows with [Git credential manager](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git#git-credential-manager-setup). I haven't tried it, but I'm guessing it's more hassle than it's worth.
+* Using Rbenv over RVM or ASDF. Just because I've always used it and it's worked well for me. I'm sure the others are great too.
+* Integrating with VS Code. Because that's what we are all using, right? If you are using VIM or something else, cool, but I'm not going to cover it here.
+
 ## Install WSL
 * Open PowerShell as Administrator (find in the menu, right-click, select Run as Administrator)
 * Type `wsl --install` and press enter, it will do it all and install Ubuntu. See [Microsoft's documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for configuration options, or if anything doesn't work here

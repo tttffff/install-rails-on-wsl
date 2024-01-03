@@ -36,11 +36,11 @@ ssh-keygen -t ed25519 -C "YOUR@EMAIL.com"
 ```
 This makes the output more readable with red for removed lines and green for added lines, adds the name and email that will be used when you author commits, and generates a new SSH key to use with GitHub.
 
-Print the SSH key to the screen with the command below and copy it to your clipboard (by selecting it with your mouse, right-clicking and selecting "Copy"):
+Print the SSH key to the screen with the command below and copy it to your clipboard (select the text with your mouse, right-click, "Copy"):
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
-Now add the key to GitHub. Go to [Add new SSH key](https://github.com/settings/ssh/new) and paste the key into the box. The title can be anything, maybe something like "WSL Ubuntu". Click "Add SSH key".
+Now add the key to GitHub. Go to [Add new SSH key](https://github.com/settings/ssh/new) and paste the key into the box. The title can be anything, maybe something like "WSL Ubuntu". Then click "Add SSH key".
 
 Come back to the Ubuntu terminal and test the connection:
 ```bash
@@ -65,12 +65,12 @@ source ~/.bashrc
 ```
 This installs all the dependencies needed, installs rbenv, and adds the rbenv path to your bashrc file so that it's available every time you open a new terminal.
 
-Run `rbenv install -l` to see what versions of Ruby are available, I'd personally pick the latest version this can be installed with `rbenv install X.Y.Z` for example `rbenv install 3.2.1`. Once you've installed a version, you can set it as the global default with `rbenv global X.Y.Z`.
+Run `rbenv install -l` to see what versions of Ruby are available, I'd personally pick the latest version. Install with `rbenv install X.Y.Z` for example `rbenv install 3.2.1`. Once you've installed a version, you can set it as the global default with `rbenv global X.Y.Z`.
 
 Run `ruby -v` to see that it's worked, and what version you're using.
 
 ## Install Rails
-Run `gem install rails` to get the latest version, or `gem install rails -v X.Y.Z` to install a specific version. Run `rbenv rehash` to make sure that rbenv is aware of the new gem.
+Run `gem install rails` to get the latest version, or `gem install rails -v X.Y.Z` to install a specific version if you need that. Run `rbenv rehash` to make sure that rbenv is aware of the new gem.
 
 Now, create a new project! `rails new MYPROJECTNAME`, and then `cd MYPROJECTNAME`. Run `rails server` to start the server, and then open your browser of choice like Chrome or Firefox (in Windows) and goto `http://localhost:3000` to see the default Rails page.
 
@@ -78,6 +78,6 @@ Now, create a new project! `rails new MYPROJECTNAME`, and then `cd MYPROJECTNAME
 
 Install Visual Studio Code (in Windows) [VS Code](https://code.visualstudio.com/). Make sure you keep the option ticked to add it to your path. Then install the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension in Visual Studio Code. This will allow you to open a WSL terminal in VS Code, and open files from the WSL terminal in VS Code.
 
-In the Ubuntu terminal, run `code .` from your projects directory. It will open your code so that you can edit it. If this doesn't work, and it says it can't find the command, reinstall VS Code and make sure you tick the option to add it to your path.
+In the Ubuntu terminal, run `code .` from your projects directory. It will open your project in VS Code so that you can edit it. If this doesn't work, and it says it can't find the `code` command, reinstall [VS Code](https://code.visualstudio.com/) and make sure you tick the option to add it to your path, close and reopen the Ubuntu terminal, and try again.
 
 Sorted.

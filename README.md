@@ -12,7 +12,7 @@
 ## Decisions made
 If you just want to get going, please skip this section.
 
-There are other tutorials for installing Rails on Windows. A lot of them are good, but they all made at least one decision that I didn't think was for the best. I've assisted many juniors setting up Rails on Windows after they were failed by some tutorial. Still, please feel free to raise an issue or PR if you think something is wrong or could be improved.
+There are other tutorials for installing Rails on Windows. A lot of them are good, but they all made at least one decision that I didn't think was for the best. I've assisted many juniors setting up Rails on Windows after they were failed by some tutorial. Please feel free to raise an issue or PR if you think something is wrong or could be improved.
 
 * Running Rails from WSL is the best option for me. Running it directly from Windows is possible, but Rails development is geared towards Mac/Linux so it feels better to do it this way, and it is easier to set up as well.
 * Connect with Github because that's almost always needed. It would be similar to connect with Gitlab or Bitbucket, but I'm not going to cover that here.

@@ -22,10 +22,9 @@ There are other tutorials for installing Rails on Windows. A lot of them are goo
 
 ## Install WSL
 * Open PowerShell as Administrator (find in the menu, right-click, select Run as Administrator)
-* Type `wsl --install` and press enter, it will do it all and install Ubuntu. See [Microsoft's documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for configuration options, or if anything doesn't work here
-* You will not need to do anything else in PowerShell from this point on
+* Type `wsl --install` and press enter, it will do it all and install Ubuntu. See [Microsoft's documentation](https://learn.microsoft.com/en-us/windows/wsl/install) for configuration options, or if anything doesn't work with this.
 * After the installation **and a reboot**, open the Ubuntu App from the Start menu and it will install. If you get an error, open Windows Updates and install any pending updates, restart then try again. Follow the prompts to create a user account. This can be the same user/password as your Windows account, or something new. The password will be used for `sudo` commands, and it will **not** echo back to the screen as you type it. Don't worry that the password isn't going in, just type it out and press enter.
-* All commands from this point on will be in the Ubuntu terminal.
+* You will not need to do anything else in PowerShell from this point on. All commands from this point on will be in the Ubuntu terminal.
 * Make sure that you're up to date: `sudo apt update && sudo apt upgrade -y`
 
 ## Set up Git

@@ -80,6 +80,6 @@ Now, create a new project! `rails new MYPROJECTNAME`, and then `cd MYPROJECTNAME
 
 Install Visual Studio Code (in Windows) [VS Code](https://code.visualstudio.com/). Make sure you keep the option ticked to add it to your path. Then install the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension in Visual Studio Code. This will allow you to open a WSL terminal in VS Code, and open files from the WSL terminal in VS Code.
 
-In the Ubuntu terminal, run `code .` from your projects directory. It will open your project in VS Code so that you can edit it. If this doesn't work, and it says it can't find the `code` command, reinstall [VS Code](https://code.visualstudio.com/) and make sure you tick the option to add it to your path, close and reopen the Ubuntu terminal, and try again.
+In the Ubuntu terminal, run `code .` from your project's directory. It will open your project in VS Code so that you can edit it. If this doesn't work, and it says it can't find the `code` command, reinstall [VS Code](https://code.visualstudio.com/) and make sure you tick the option to add it to your path, close and reopen the Ubuntu terminal, and try again.
 
 Sorted.

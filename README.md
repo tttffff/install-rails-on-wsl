@@ -12,13 +12,13 @@
 ## Decisions made
 If you just want to get going, please skip this section.
 
-There are other tutorials for installing Rails on Windows. A lot of them are good, but they all made at least one decision that I didn't think was for the best. I've assisted many juniors setting up Rails on Windows after they were failed by some tutorial. Please feel free to raise an issue or PR if you think something is wrong or could be improved.
+There are other tutorials for installing Rails on Windows. A lot of them are good, but they all made at least one decision that I didn't think was for the best. This method has assisted many people after they were failed by some tutorial. Please raise an issue or PR if you think something is wrong or could be improved.
 
 * Running Rails from WSL is the best option for me. Running it directly from Windows is possible, but Rails development is geared towards Mac/Linux so it feels better to do it this way, and it is easier to set up as well.
 * Connect with Github because that's almost always needed. It would be similar to connect with Gitlab or Bitbucket, but I'm not going to cover that here.
 * Creating a new key for Github in WSL. It is apparently possible to use the same key as Windows with [Git credential manager](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git#git-credential-manager-setup). I haven't tried it, but I'm guessing it's more hassle than it's worth.
 * Using Rbenv over RVM or ASDF. Just because I've always used it and it's worked well for me. I'm sure the others are great too.
-* Integrating with VS Code. Because that's what we are all using, right? If you are using VIM or something else, cool, but I'm not going to cover it here.
+* Integrating with VS Code. Because that's what we are all using, right? If you are using VIM or something else, cool, but it's not covered here.
 
 ## Install WSL
 * Open PowerShell as Administrator (find in the menu, right-click, select Run as Administrator)
